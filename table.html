@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Tabel</title>
+        <style>
+            table, th, td {
+                border: 5px solid aqua;
+                border-collapse: collapse;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table style="width: 50%;">
+            <tr>
+                <td>
+                    <label for="name">Nama Calon Siswa</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input id="name" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ttl">Tempat/Tanggal Lahir</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input id="ttl" type="text">
+                    <input id="ttl" type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="religion">Agama</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <select id="religion">
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Hindu</option>
+                        <option>Budha</option>
+                        <option>Konghucu</option>
+                    </select>                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Alamat</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <textarea id="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">No. Telp/Hp</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input type="number" id="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Jenis Kelamin</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input type="radio" id="cwok">
+                    <label for="cwok">Pria</label>
+                    <input type="radio" id="cwek">
+                    <label for="cwek">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobi</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input type="checkbox" id="baca"><label for="baca">Membaca</label>
+                    <input type="checkbox" id="nulis"><label for="nulis">Menulis</label>
+                    <input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="foto">Pas Foto</label>
+                </td>
+                <td>
+                    <label>:</label>
+                    <input type="file" id="foto">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>
